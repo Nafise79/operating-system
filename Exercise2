@@ -84,7 +84,7 @@ or malicious scripts cannot corrupt or crash the browser.
 
 🔴5. Define three types of user-mode to kernel-mode transfers.
 
-1. System calls: User-mode applications can request services from the operating system by making system calls.
+👉1. System calls: User-mode applications can request services from the operating system by making system calls.
 These calls transfer control from user mode to kernel mode, where the requested service is performed.
 
 2. Interrupts: Interrupts are signals sent to the CPU by hardware devices or software processes to request immediate attention.
